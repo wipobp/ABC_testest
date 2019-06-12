@@ -1,0 +1,37 @@
+---
+swagger: "2.0"
+info:
+  description: "abc application"
+  version: "0.1"
+  title: "ABC_testest"
+  termsOfService: "http://conatct.com"
+  contact:
+    name: "John"
+    url: "http://conatct.com"
+    email: "ahc@gmail.com"
+  license:
+    name: "aajsd"
+    url: "http://license.com"
+host: "www.banking.com"
+basePath: "/base"
+tags:
+- name: "asd"
+  description: "asd"
+paths:
+  /asdad:
+    post:
+      tags: []
+      summary: "asd"
+      description: "asd"
+      operationId: "asd"
+      consumes: []
+      produces: []
+      parameters:
+      - in: "body"
+        name: "asd"
+        description: "asd"
+        required: false
+      x-swagger-router-controller: "Default"
+definitions:
+  name:
+    type: "string"
